@@ -24,7 +24,7 @@ public class Island {
 
     public void showStatistic(int day) {
         day++;
-        System.out.println("\uD83C\uDFDD".repeat(20) + " day " + day + " " + "\uD83C\uDFDD".repeat(20));
+        System.out.println("\uD83C\uDFDD".repeat(18) + " day " + day + " " + "\uD83C\uDFDD".repeat(19));
         for (int col = 0; col < locations.length; col++) {
             for (int row = 0; row < locations[col].length; row++) {
                 System.out.print("[" + col + "," + row + "] ");
